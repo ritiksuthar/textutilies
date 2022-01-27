@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>template is working </title>
+</head>
+<body>
+    <h1> Welcome to the text analyezer. enter your text bleow </h1>
+    <form action='/analyze' method='get'> 
+        <textarea name='text' style="width: 708px;height: 115px;"></textarea><br>
+        <input type="checkbox" name="removepunc">Remove Punctuation<br>
+        <input type="checkbox" name="capital">UPPERCASE<br>
+        <input type="checkbox" name="newlineremover">NEW LINE REMOVER<br>
+        <input type="checkbox" name="spaceremover">SPACE REMOVER<br>
+        <input type="checkbox" name="charcount">CHARCTER COUNT<br>
+        <button type='submit'>Analyze text</button>
+    </form>
+</body>
+</html>
